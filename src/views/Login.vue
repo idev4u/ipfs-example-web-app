@@ -28,10 +28,10 @@ export default {
           this.$emit("authenticated", true);
           this.$router.replace({ name: "secure" });
         } else {
-          console.log("The username and / or password is incorrect");
+          // console.log("The username and / or password is incorrect");
         }
       } else {
-        console.log("A username and password must be present");
+        // console.log("A username and password must be present");
       }
     }
   }
